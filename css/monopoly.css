@@ -204,6 +204,18 @@ body{
     background-size:contain;
     background-position:center;
 }
+.player.smile{
+    background-image:url(../images/smile.png);
+    background-size:contain;
+    background-position:center;
+}
+
+.player.isinjail{
+    background-image:url(../images/sad.png);
+    background-size:contain;
+    background-position:center;
+}
+
 
 .board .dice.cell{
     background-color:white;
@@ -214,7 +226,7 @@ body{
     width: 25%;
     height: 25%;
     margin: 4%;
-    background-color: black;
+    background-color: #364c9c;
     border-radius: 100px;
     opacity:0;
 }
